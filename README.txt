@@ -12,8 +12,7 @@
   desc random hacks for SonicPi 
 
 
-An afternoons hack using sonic pi on the RaspberryPi. Some interesting sounds. You
-use the notes to get a tune and the various synths to fill in with some
+An afternoons hack using sonic pi on the RaspberryPi. Some interesting sounds. You use the notes to get a tune and the various synths to fill in with some
 noise. 
 
 http://www.cl.cam.ac.uk/projects/raspberrypi/sonicpi/

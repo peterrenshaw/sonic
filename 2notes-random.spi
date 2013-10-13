@@ -1,0 +1,21 @@
+200.times do
+  if rand < 0.25
+    play 62
+    sleep 0.5
+    play 60
+  else 
+    if rand > 0.25 
+        play 72
+        sleep 0.25
+        play rand * 72
+        sleep 0.25
+        play 70
+    else
+        play 80
+        sleep 0.25
+        play 78
+        sleep 0.25
+        play 76   
+    end
+   end
+end

@@ -1,0 +1,39 @@
+200.times do
+1.times do
+ play 44
+ sleep 0.50
+ play 46
+ sleep 0.25
+ play 48
+ sleep 0.25
+ play 49
+ sleep 0.30
+ play 48
+ sleep 0.25
+ play 46
+ sleep 0.65
+ play 42
+ sleep 1
+ play 48
+end
+1.times do
+ play 42
+ sleep 0.2
+ play 44
+ sleep 0.50
+ play 46
+ sleep 0.25
+ play 48
+ sleep 0.25
+ play 49
+ sleep 0.30
+ play 48
+ sleep 0.25
+ play 46
+ sleep 0.65
+ play 44
+ sleep 0.6
+ play 46
+ sleep 2
+end
+end

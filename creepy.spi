@@ -1,0 +1,9 @@
+100.times do
+  #with_temp rand(20)
+  play_pattern [50,51,54,46], "attack", rand(2)
+  sleep 0.05
+  play_synth "saw_beep", "note", rand(44), "release", rand(4)
+  sleep 0.05
+  play_synth "fm", "note", rand(40), "depth", rand(4)  
+end
+

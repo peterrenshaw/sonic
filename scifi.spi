@@ -1,0 +1,24 @@
+in_thread do
+  100.times do
+    play_synth "fm", "note", rand(44), "depth", rand(6)
+    sleep 0.5
+  end
+end
+100.times do
+  with_tempo 40
+  play 50, "attack", rand(1)
+  sleep 1
+  play 51, "attack", 1
+  sleep 1
+  play 54, "attack", 1
+  sleep 1
+  play 46, "attack", 1
+  sleep 1
+  play_pattern [50,51,54,46,54,51], "attack", rand(1)
+  sleep 0.05
+  play_pattern [50,51,54,46], "attack", rand(2)
+  play_synth "saw_beep", "note", rand(44), "release", rand(4)
+  sleep 0.05
+  play_synth "fm", "note", rand(40), "depth", rand(4)  
+end
+

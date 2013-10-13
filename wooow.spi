@@ -1,0 +1,4 @@
+100.times do
+  play_synth "fm", "note", rand(44), "depth", rand(6)
+  sleep 2
+end

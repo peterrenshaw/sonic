@@ -1,0 +1,24 @@
+200.times do
+     if rand < 0.45
+       with_tempo 100
+       play_pattern [72,71,70]
+       sleep 0.05
+       play_pattern [70,69,68]
+     else
+        if rand < 0.5
+          play 60
+          sleep 0.5
+          play 62
+        else
+          play 72
+          sleep 0.24
+          play 72
+          sleep 0.25
+          play 70
+       end
+       with_tempo 400
+       play_pattern [72,71,70].shuffle
+       sleep 0.01
+       play_pattern [70,69,68].shuffle
+     end
+end

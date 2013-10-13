@@ -1,0 +1,21 @@
+play 50, "attack", rand(1)
+sleep 1
+play 51, "attack", 1
+sleep 1
+play 54, "attack", 1
+sleep 1
+play 46, "attack", 1
+sleep 1
+play 54, "attack", rand(1)
+sleep 1
+play_pattern [50,51,54,46,54,52.5], "attack", rand(1)
+#play_synth "pretty_bell", "note", 60, "attack", 1
+#play_pattern [40,42,44], "attack", 1
+
+#play_pattern_timed [40,42,44,45], [0.5,0.5,0.5]
+
+#play_chord [40,42,44,45], "attack", 1
+#play_pattern [40,42,44], "attack", 1
+#lay_synth "pretty_bell", "note", 60, "attack", 1
+#play_synth "fm", "note", 44, "depth", 3
+#play_synth "saw_beep", "note", 44, "release", 8
